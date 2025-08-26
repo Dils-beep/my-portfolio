@@ -180,3 +180,31 @@ body {
   color: #9b59b6;
   text-decoration: underline;
 }
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background-color: #292929;
+}
+
+.project-card h3 {
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: #9b59b6;
+  text-decoration: underline;
+}
+
